@@ -18,6 +18,7 @@ describe("Adicionar cupom FRETEGRATIS e verificar valores", () => {
       force: true,
     });
 
+    //Verifica se o valor subtotal é igual ao total, oonfirmando que o valor do frete foi removido do total.
     cy.get("strong.valor-subtotal")
       .invoke("text")
       .then((subtotalText) => {

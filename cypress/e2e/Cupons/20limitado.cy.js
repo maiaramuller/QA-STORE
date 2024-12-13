@@ -12,10 +12,12 @@ describe("Adicionar cupom 20LIMITADO e verificar valores", () => {
 
     cy.contains("button", "Usar cupom").should("be.visible").click();
 
+    //Verifica se o texto "Cupom não encontrado" existe na página
     cy.get("div.alert.alert-danger.alert-geral")
       .should("be.visible")
       .and("contain.text", "Cupom não encontrado");
 
+    //Verifica se o valor subtotal é igual ao total
     cy.get("strong.valor-subtotal")
       .invoke("text")
       .then((subtotalText) => {

@@ -31,15 +31,14 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
 
 ## Como Executar os Testes
 
-### Executar no modo interativo (Cypress GUI):
+1. Executar no modo interativo (Cypress GUI):
 ```bash
 npx cypress open
 ```
 
-### Selecione um navegador de sua preferência (como o Google Chrome)
+2. Selecione um navegador de sua preferência (como o Google Chrome)
 
-### No menu lateral esquerdo clique em "Specs" e selecione um dos testes para visualização.
-
+3. No menu lateral esquerdo clique em "Specs" e selecione um dos testes para visualização.
 
 ## Estrutura do Projeto
 

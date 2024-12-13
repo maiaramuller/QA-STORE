@@ -36,6 +36,11 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
 npx cypress open
 ```
 
+### Selecione um navegador de sua preferência (como o Google Chrome)
+
+### No menu lateral esquerdo clique em "Specs" e selecione um dos testes para visualização.
+
+
 ## Estrutura do Projeto
 
 ```

@@ -60,6 +60,7 @@ Certifique-se de que você tem as seguintes ferramentas instaladas:
 │   ├── support/                            # Suporte e comandos personalizados
 │   
 ├── node_modules/                           # Dependências do Node.js
+├── .gitignore                              # Arquivos a serem ignorados no git
 ├── package.json                            # Configurações e dependências do projeto
 ├── cypress.config.js                       # Configuração do Cypress
 └── README.md                               # Documentação do projeto
